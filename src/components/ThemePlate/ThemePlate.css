@@ -1,0 +1,72 @@
+:root {
+    /*WHITE*/
+    --white-bg-color: #fff;
+    --white-text-color: #000;
+  
+    /*DARK*/
+    --dark-bg-color: #434343;
+    --dark-text-color: #fff;
+  
+    /*RED*/
+    --red-bg-color: #ce8082;
+    --red-text-color: #020202;
+  
+    /*GREEN*/
+    --green-bg-color: #40de7c;
+    --green-text-color: #020202;
+  
+    /*YELLOW*/
+    --yellow-bg-color: #fdc011;
+    --yellow-text-color: #110d02;
+  
+    /*BLUE*/
+    --blue-bg-color: #2943a1;
+    --blue-text-color: #d4cbcd;
+  
+    /*PURPLE*/
+    --purple-bg-color: #dbdbed;
+    --purple-text-color: #29262e;
+  
+    /*OLIVE*/
+    --olive-bg-color: #838b74;
+    --olive-text-color: #f7f5e4;
+  }
+
+.page-wrapper {
+    padding: 30px 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .color-palette {
+    position: fixed;
+    top: 40%;
+    right: 15px;
+    display: grid;
+    grid-row-gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .color-palette label {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .color-palette label::before {
+    display: none;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 2px;
+  }
+
+  input[type="radio"] {
+    display: none;
+}
+
