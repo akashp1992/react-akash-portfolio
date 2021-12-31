@@ -35,6 +35,7 @@ import julia from '../assets/svg/skills/julia.svg'
 import kotlin from '../assets/svg/skills/kotlin.svg'
 import matlab from '../assets/svg/skills/matlab.svg'
 import php from '../assets/svg/skills/php.svg'
+import android from '../assets/svg/skills/android.svg'
 import python from '../assets/svg/skills/python.svg'
 import ruby from '../assets/svg/skills/ruby.svg'
 import swift from '../assets/svg/skills/swift.svg'
@@ -58,7 +59,7 @@ import strapi from '../assets/svg/skills/strapi.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
-
+import redux from '../assets/svg/skills/redux.svg'
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
 import fastify from '../assets/svg/skills/fastify.svg'
@@ -87,6 +88,8 @@ export const skillsImage = (skill) => {
             return photoshop;
         case 'docker':
             return docker;
+        case 'android':
+            return android;
         case 'illustrator':
             return illustrator;
         case 'adobe xd':
@@ -97,6 +100,8 @@ export const skillsImage = (skill) => {
             return css;
         case 'angular':
             return angular;
+        case 'redux':
+            return redux;
         case 'javascript':
             return javascript;
         case 'next js':
